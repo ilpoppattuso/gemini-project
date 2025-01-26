@@ -44,7 +44,12 @@ This is an AI chat application built using Streamlit and Google Generative AI. I
     # dotenv.load_dotenv()  # load from .env file
     ```
 
-### Usage
+## Usage
+
+You can use the application online with my personal Google AI Studio API at the following URL:
+[https://ilpoppattuso.streamlit.app/](https://ilpoppattuso.streamlit.app/)
+
+### Local Usage
 
 1. Run the Streamlit application:
     ```sh
