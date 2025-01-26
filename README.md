@@ -31,9 +31,17 @@ This is an AI chat application built using Streamlit and Google Generative AI. I
     pip install -r requirements.txt
     ```
 
-3. Create a  file in the project root directory and add your Google API key:
+3. Create a [.env](http://_vscodecontentref_/0) file in the project root directory and add your Google API key:
     ```env
     GOOGLE_API_KEY=your_google_api_key_here
+    ```
+
+4. If you want to use the application locally, uncomment the following lines in [main.py](http://_vscodecontentref_/1):
+    ```python
+    # import dotenv
+    ```
+    ```python
+    # dotenv.load_dotenv()  # load from .env file
     ```
 
 ### Usage
@@ -64,7 +72,7 @@ This is an AI chat application built using Streamlit and Google Generative AI. I
 
 ## License
 
-This application is released under the MIT license.
+This application is released under the GNU General Public License (v3).
 
 ## Acknowledgments
 

@@ -3,15 +3,15 @@
 # last updated: 2025-01-26 (maybe)
 
 import google.generativeai as genai
+# import dotenv - uncomment this line to use locally
 import streamlit as st
-import dotenv
 import os
 import time
 import pyperclip
 from datetime import datetime
 
 # ----- config stuff -----
-dotenv.load_dotenv()  # load from .env file
+# dotenv.load_dotenv()  # load from .env file - uncomment this line to use locally
 
 # check if api key exists
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
